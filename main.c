@@ -18,15 +18,24 @@ void help() {
 
 
     const char* help_text = 
-"\nCOOLCIPHER\n\
+"\n===========\n\
+COOLCIPHER\n\
 ===========\n\
 HELP MENU\n\
 \n\
 usage: coolcipher <cipher> <mode> <input type> <input>\n\
 \n\
 cipher:\n\
-    -c: Caesar cipher\n\
-\n\
+    c: Caesar cipher\n\
+\n\n\
+mode:\n\
+    e: Encoding mode\n\
+    d: Decoding mode\n\n\
+input type:\n\
+    c: Read input from the command line\n\
+    f: Read input from a file\n\n\
+input:\n\
+Either type out the input or enter the filename\n\n\
 ";
 
 
